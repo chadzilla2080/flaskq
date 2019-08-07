@@ -12,5 +12,5 @@ This project is code by Python + Flask, a QA community, clone with "Quora":http:
 ```bash
 pip install -r requirements.txt
 python manage.py deploy
-python manage.py runserver
+python manage.py runserver -h 127.0.0.1 -p 8000
 ```
